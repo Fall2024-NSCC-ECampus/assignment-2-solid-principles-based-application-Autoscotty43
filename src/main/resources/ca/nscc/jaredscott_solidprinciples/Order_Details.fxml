@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="ca.nscc.jaredscott_solidprinciples.OrderDetailsController">
+    <Label text="Order Details" layoutX="14.0" layoutY="14.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+    <Label fx:id="orderSummary" layoutX="14.0" layoutY="54.0" wrapText="true" prefWidth="400.0" />
+    <Label fx:id="paymentStatus" layoutX="14.0" layoutY="104.0" wrapText="true" prefWidth="400.0" />
+</AnchorPane>

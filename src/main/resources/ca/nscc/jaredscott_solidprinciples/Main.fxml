@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="ca.nscc.jaredscott_solidprinciples.MainController">
+  <Label fx:id="welcomeText" text="Welcome to Jell-o Express Courier!" layoutX="14.0" layoutY="14.0" />
+
+  <Label text="Select a Product:" layoutX="14.0" layoutY="44.0" />
+  <ComboBox fx:id="productComboBox" layoutX="14.0" layoutY="64.0" prefWidth="360.0" />
+
+  <Label text="Choose Delivery or Pickup:" layoutX="14.0" layoutY="104.0" />
+  <RadioButton fx:id="deliveryRadioButton" text="Delivery" layoutX="14.0" layoutY="124.0" />
+  <RadioButton fx:id="pickupRadioButton" text="Pickup" layoutX="120.0" layoutY="124.0" />
+
+  <Label fx:id="addressLabel" text="Delivery Address:" layoutX="14.0" layoutY="154.0" /> <!-- New Label -->
+  <TextField fx:id="addressField" layoutX="14.0" layoutY="174.0" prefWidth="360.0" />
+
+  <Button fx:id="orderButton" text="Place Order" layoutX="14.0" layoutY="214.0" />
+  <Label fx:id="orderStatus" layoutX="14.0" layoutY="244.0" />
+</AnchorPane>
+

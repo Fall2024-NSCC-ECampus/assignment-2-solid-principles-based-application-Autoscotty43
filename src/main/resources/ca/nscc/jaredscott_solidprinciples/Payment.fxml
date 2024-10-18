@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="ca.nscc.jaredscott_solidprinciples.PaymentController">
+    <Label text="Process Payment" layoutX="14.0" layoutY="14.0" />
+
+    <Label text="Card Number:" layoutX="14.0" layoutY="44.0" />
+    <TextField fx:id="cardNumberField" layoutX="14.0" layoutY="64.0" prefWidth="360.0" />
+
+    <Label text="Expiry Date:" layoutX="14.0" layoutY="104.0" />
+    <TextField fx:id="expiryField" layoutX="14.0" layoutY="124.0" prefWidth="180.0" />
+
+    <Label text="CVV:" layoutX="200.0" layoutY="104.0" />
+    <TextField fx:id="cvvField" layoutX="200.0" layoutY="124.0" prefWidth="180.0" />
+
+    <Button text="Submit Payment" layoutX="14.0" layoutY="164.0" onAction="#handleSubmitPayment" />
+    <Button text="Cancel" layoutX="200.0" layoutY="164.0" />
+</AnchorPane>
